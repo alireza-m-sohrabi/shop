@@ -1,0 +1,19 @@
+@tailwind components;
+@tailwind utilities;
+
+.layout-container {
+    @apply h-full
+}
+
+.layout-header {
+    height: 60px;
+    @apply fixed w-full
+}
+
+.layout-sidebar {
+
+}
+
+.layout-content {
+    height: calc(100% - 60px);
+}
